@@ -22,7 +22,7 @@ public class LoginTest {
  
     @BeforeAll
     public static void setUp() {
-        // Set up WebDriverManager and initialize the ChromeDriver
+       
     	WebDriverManager.chromedriver().driverVersion("130.0.6723.116").setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize(); // Maximize the browser window
